@@ -1,0 +1,294 @@
+/*Format for webpage. */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:rgba(58,131,120,255);
+}
+
+/*Format for Logo. */
+
+.logo{
+    float: left;
+    clear: both;
+    display: flex;
+}
+
+/* Format for navigation menu. */
+
+nav{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Format for social media logos and about link. */
+
+.comlogo{
+    list-style-type: none;
+}
+
+.comlogo li a{
+    filter: brightness(0)invert(1);
+    text-decoration: none;
+}
+
+.about{
+    background-color: #82A1A5;
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+/* Format for body. */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Text Formats */
+
+h1{
+    color: white;
+    background-color: #82A1A5;
+    display: inline-block;
+    padding: 5px 5px;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 a{
+    color: white;
+    background-color: #82A1A5;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+/* Formating for banner. */
+
+.hometext{
+    position: absolute;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.homebanner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.homebanner img{
+    max-width: 100%;
+    height:auto
+}
+
+/* Formating for SwapIt; text and image. */
+
+.swapitsalad{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.swapitsalad img{
+    max-width: 100%;
+    height:auto
+}
+
+.swapit{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+/* Formating for Share an Alternative; text and image. */
+
+.sharingfood{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.shareanalternative{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+/* Formating for About; text and image. */
+
+.vegetableplatter{
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+
+.aboutus{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+/* Format text to go under Headings */
+
+.containtext1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.containtext2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.containtext3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Format for Share an Alternative and About us background images*/
+
+.shareandabout{
+    display: flex;
+}
+
+/* Format for information text. */
+
+p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #82A1A5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px 5px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #82A1A5; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px 5px;
+}
+
+.contactinfo ul li{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contactinfo ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* Format for footer. */
+
+h4{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    background-color:rgba(58,131,120,255);
+}
+
+/* Format for banner text */
+
+.hometext2{
+    position: absolute;
+    justify-content: space-around;
+    top: 15%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.aboutusbody{
+    padding: 20px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Format for A-Z filter links */
+
+.az{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.az ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.az ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Format for picutures on swap it page */
+
+.grouppictures ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 15px;
+    padding-left: 45%;
+    align-items: center;
+    text-align: center;
+}
+
+.grouppictures ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* SwapIt banner text positioning */
+
+.A{
+    display: flex;
+    padding-left: 50%;
+}
